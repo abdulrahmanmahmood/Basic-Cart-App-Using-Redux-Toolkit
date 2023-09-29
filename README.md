@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Basic Cart App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and responsive e-commerce cart application built using React, Bootstrap, Redux, Redux Toolkit, Redux DevTools, React Router, and integrated with the FakeStoreAPI.
 
-## Available Scripts
+![Basic Cart App]![image](https://github.com/abdulrahmanmahmood/Basic-Cart-App-Using-Redux-Toolkit/assets/126025222/d53f3337-21ca-43af-baa6-67d2cd46f8a3)
+![Basic Cart App]![image](https://github.com/abdulrahmanmahmood/Basic-Cart-App-Using-Redux-Toolkit/assets/126025222/2bc6d384-4298-4a6e-bcda-1de3e4b86d40)
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Integration with FakeStoreAPI**: Fetches store data from the [FakeStoreAPI](https://fakestoreapi.com/) to display products and their details.
+- **Responsive Design**: Utilizes Bootstrap for a responsive layout across various devices and screen sizes.
+- **State Management with Redux Toolkit**: Implements Redux Toolkit for efficient state management in the application.
+- **React Router**: Enables smooth navigation and handling of routes within the app.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React**: JavaScript library for building user interfaces.
+- **Bootstrap**: CSS framework for designing responsive and mobile-first websites.
+- **Redux Toolkit**: Streamlines Redux setup and manages the application's state efficiently.
+- **Redux DevTools**: A powerful tool for debugging and inspecting Redux state changes.
+- **React Router**: Standard routing library for React applications.
+- **FakeStoreAPI**: Provides a mock e-commerce store API for testing and prototyping.
 
-### `npm run build`
+## How to Run
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository: `git clone https://github.com/yourusername/basic-cart-app.git`
+2. Navigate to the project directory: `cd basic-cart-app`
+3. Install dependencies: `npm install`
+4. Start the app: `npm start`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The app will be running at the provided URL. Open this URL in your web browser to view the Basic Cart App.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions are welcome! Feel free to open issues, create pull requests, or suggest improvements to make this Basic Cart App even better.
